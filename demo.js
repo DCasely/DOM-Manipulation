@@ -3,12 +3,17 @@
 // h1.style.border = '5px solid pink';
 // console.log(h1.style);
 
-var p = document.querySelector('p');
-console.log(p);
+// var p = document.querySelector('p');
+// console.log(p);
 
-p.classList.add('big');
-p.classList.remove('big');
-p.classList.toggle('big');
-p.classList.toggle('big');
+// p.classList.add('big');
+// p.classList.remove('big');
+// p.classList.toggle('big');
+// p.classList.toggle('big');
+// console.log(p.classList);
 
-console.log(p.classList);
+var p = document.getElementsByTagName('p')[0];
+console.log(p.textContent);
+
+var ul = document.querySelector('ul');
+console.log(ul.textContent);
