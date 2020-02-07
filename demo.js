@@ -11,9 +11,3 @@
 // p.classList.toggle('big');
 // p.classList.toggle('big');
 // console.log(p.classList);
-
-var p = document.getElementsByTagName('p')[0];
-console.log(p.textContent);
-
-var ul = document.querySelector('ul');
-console.log(ul.textContent);
